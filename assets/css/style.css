@@ -1,0 +1,70 @@
+/*== TYPOGRAPHY ============================================*/
+
+
+.game-heading {
+    font-family: 'Spectral SC', serif;
+    font-weight: 900;
+    font-size: 6.5em;
+    letter-spacing: 0.05em;
+    color: #8a7160;
+    text-align: center;
+}
+
+.character-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.character-stats {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.start-up-text {
+    font-family: 'Spectral SC', serif;
+    font-weight: 900;
+    font-size: 2em;
+    color: #8a7160;
+    text-align: center;
+}
+
+/*== STYLES ===============================================*/
+
+body {
+    background-image: url(..//images/backgroundimage.jpg);
+    background-size: cover;
+}
+
+
+.game-heading {
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#selected-hero {
+    background-color: #76e29d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#enemy {
+    background-color: #e1556e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#start-up-text-container {
+    background-color: #ddd;
+    margin-top: 50px;
+    border-radius: 10px;
+}
