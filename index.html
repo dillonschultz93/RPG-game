@@ -10,11 +10,87 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Spectral+SC" rel="stylesheet">
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <!-- JAVASCRIPT -->
     <script type="text/javascript" src="assets/javascript/logic.js"></script>
 
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1 class="game-heading">DOTA RPG</h1>
+            </div>
+        </div>
 
+        <!-- Starting Position of each hero is here -->
+
+        <div class="row" id="character-selection">
+            <div class="three columns">
+                <div class="card" id="character-card-drow">
+                <!-- The hero information is appened here with the displayHeroes() function in logic.js -->
+                </div>
+
+            </div>
+            <div class="three columns">
+                <div class="card" id="character-card-mage">
+                <!-- The hero information is appened here with the displayHeroes() function in logic.js -->
+                </div>
+
+            </div>
+            <div class="three columns">
+                <div class="card" id="character-card-night">
+                <!-- The hero information is appened here with the displayHeroes() function in logic.js -->
+                </div>
+
+            </div>
+            <div class="three columns">
+                <div class="card" id="character-card-jakiro">
+                <!-- The hero information is appened here with the displayHeroes() function in logic.js -->
+                </div>
+
+            </div>
+        </div>
+        <!-- Message to select an enemy is displayed here after the user has picked a hero -->
+
+        <div class="row" id="start-up-message">
+            <div class="twelve columns">
+                <div id="start-up-text-container">
+                 <!-- Start up message goes here. Remove this message once the user picks a hero -->
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Once hero is selected, they are displayed below the start up message container  -->
+
+        <div class="row">
+            <div class="three columns">
+                <div id="selected-hero">
+                    <!-- Image of character gets appended here -->
+                    <img src="assets/images/drow_ranger_full.png" alt="Image of DOTA 2 character, 'Drow Ranger'" class="u-full-width character-img">
+                    <h5 class="character-name" id="name">Drow Ranger</h5>
+                    <p class="character-stats">HP : <span id="health"></span></p>
+                </div>
+            </div>
+
+            <!-- Once an enemy is selected, they are displyed floated to the right of the  -->
+
+            <div class="three columns u-pull-right">
+                <div id="enemy">
+                    <!-- Image of character gets appended here -->
+                    <img src="assets/images/drow_ranger_full.png" alt="Image of DOTA 2 character, 'Drow Ranger'" class="u-full-width character-img">
+                    <h5 class="character-name" id="name">Drow Ranger</h5>
+                    <p class="character-stats">HP : <span id="health"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
